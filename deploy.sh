@@ -11,35 +11,35 @@ cd docs/.vuepress/dist
 
 # deploy to github
 # echo 'b.xugaoyi.com' > CNAME
-# if [ -z "$GITHUB_TOKEN" ]; then
-#   msg='github deploy'
-#   githubUrl=git@github.com:jizai1125/jizai1125.github.io.git
+if [ -z "$GITHUB_TOKEN" ]; then
+  msg='github deploy'
+  githubUrl=git@github.com:jizai1125/jizai1125.github.io.git
+else
+  msg='来自github actions的自动部署'
+  githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/xugaoyi/vuepress-theme-vdoing.git
+  git config --global user.name "jizai1125"
+  git config --global user.email "1414589221@qq.com"
+fi
+git init
+git add -A
+git commit -m "${msg}"
+git push -f $githubUrl master:gh-pages # 推送到github
+
+
+# deploy to gitee
+# echo 'b.xugaoyi.com' > CNAME
+# if [ -z "$GITEE_TOKEN" ]; then
+#   msg='gitee deploy2'
+#   giteeUrl=git@gitee.com:aka-jizai/aka-jizai.git
 # # else
 # #   msg='来自github actions的自动部署'
 # #   githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/xugaoyi/vuepress-theme-vdoing.git
 # #   git config --global user.name "jizai1125"
 # #   git config --global user.email "1414589221@qq.com"
 # fi
-# git init
 # git add -A
 # git commit -m "${msg}"
-# git push -f $githubUrl master:gh-pages # 推送到github
-
-
-# deploy to gitee
-# echo 'b.xugaoyi.com' > CNAME
-if [ -z "$GITEE_TOKEN" ]; then
-  msg='gitee deploy2'
-  giteeUrl=git@gitee.com:aka-jizai/aka-jizai.git
-# else
-#   msg='来自github actions的自动部署'
-#   githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/xugaoyi/vuepress-theme-vdoing.git
-#   git config --global user.name "jizai1125"
-#   git config --global user.email "1414589221@qq.com"
-fi
-git add -A
-git commit -m "${msg}"
-git push -f $giteeUrl master:gh-pages # 推送到github
+# git push -f $giteeUrl master:gh-pages # 推送到github
 
 
 # deploy to coding
