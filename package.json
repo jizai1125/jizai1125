@@ -11,6 +11,7 @@
     "updateTheme": "npm uninstall vuepress-theme-vdoing && rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D"
   },
   "license": "MIT",
+  "homepage": "https://jizai1125.github.io",
   "devDependencies": {
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
