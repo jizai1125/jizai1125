@@ -1,14 +1,10 @@
 #!/usr/bin/env sh
-
 # 确保脚本抛出遇到的错误
 set -e
-
 # 生成静态文件
 npm run build
-
 # 进入生成的文件夹
 cd docs/.vuepress/dist
-
 # deploy to github
 # echo 'b.xugaoyi.com' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
@@ -16,8 +12,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:jizai1125/jizai1125.github.io.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://github.com/jizai1125/Blog.git
-
+  githubUrl=git@github.com:jizai1125/jizai1125.github.io.git
 fi
 git init
 git add -A
