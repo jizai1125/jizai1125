@@ -21,7 +21,6 @@ git add -A
 git commit -m "${msg}"
 git push -f $githubUrl master:gh-pages # 推送到github
 
-# 
 # deploy to gitee
 # echo 'b.xugaoyi.com' > CNAME
 # if [ -z "$GITEE_TOKEN" ]; then
