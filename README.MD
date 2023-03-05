@@ -1,4 +1,4 @@
-### 哈喽！我是吉仔
+### 哈喽！我是吉仔 ![visitor](https://visitor-badge.glitch.me/badge?page_id=jizai1125.jizai1125)
 
 **个人主页**  
 
@@ -18,5 +18,4 @@
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
 
-![](https://visitor-badge.glitch.me/badge?page_id=jizai1125.jizai1125)
 [![Jizai's github stats](https://github-readme-stats.vercel.app/api?username=jizai1125)](https://github.com/anuraghazra/github-readme-stats)
