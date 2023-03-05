@@ -1,1 +1,1 @@
-# <center>💛 [Jizai's Blog](https://jizai.notion.site/jizai/Jizai-s-Home-cedd6e5dd02c476da5fe6ee8a3721ad6) 💛
+<h1 align="center"><a href="https://jizai.notion.site/jizai/Jizai-s-Home-cedd6e5dd02c476da5fe6ee8a3721ad6">Jizai's Blog</a></h1>
