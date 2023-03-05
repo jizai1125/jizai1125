@@ -1,6 +1,6 @@
-### Hi 我是大圣
+### Hi 我是吉仔
 
-![](https://visitor-badge.glitch.me/badge?page_id=shengxinjing.shengxinjing)
+![](https://visitor-badge.glitch.me/badge?page_id=jizai1125.jizai1125)
 
 
 **各平台主页**  
