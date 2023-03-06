@@ -1,14 +1,6 @@
 ### 哈喽！我是吉仔 ![visitor](https://visitor-badge.glitch.me/badge?page_id=jizai1125.jizai1125)
 
-**个人主页**  
-
-- [Notion](https://jizai.notion.site/jizai/Jizai-s-Home-cedd6e5dd02c476da5fe6ee8a3721ad6) 
-
-- [CSDN](https://blog.csdn.net/Cyj1414589221?type=blog)
-
-- [掘金](https://juejin.cn/user/2383396941348136)
-
-- [语雀](https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*IVdnTJqUp6gAAAAAAAAAAAAADvuFAQ/original)
+**个人主页**  [Notion](https://jizai.notion.site/jizai/Jizai-s-Home-cedd6e5dd02c476da5fe6ee8a3721ad6) | [掘金](https://juejin.cn/user/2383396941348136) | [CSDN](https://blog.csdn.net/Cyj1414589221?type=blog) | [语雀](https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*IVdnTJqUp6gAAAAAAAAAAAAADvuFAQ/original)
 
 **技术栈**
 
